@@ -1,0 +1,63 @@
+.accueil  {
+  width: 100%;
+  height : 100vh;
+  background-image: url(../img/bayonne.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+#chevron {
+  color: white;
+  font-size: 70px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.accueil h1 {
+font-family: 'Montserrat Subrayada', sans-serif;
+
+font-size: 70px;
+  color: white;
+  padding-top:100px;
+  margin-bottom: 20px;
+}
+
+.accueil hr {
+  border: 4px solid white;
+  width: 80%;
+
+
+}
+
+.accueil h2 {
+  margin: auto;
+  color: black;
+  margin-top: 30px;
+  font-family: 'Roboto', sans-serif;
+  padding: 30px;
+  font-size: 40px;
+  background-color: white;
+  width:80%;
+}
+
+.navbar {
+  color: black;
+
+}
+#navigation {
+  position: absolute;
+  top:0;
+  width: 100%;
+
+
+ }
+
+.navbar a i {
+  color:black;
+  font-size:40px;
+  margin-left: 20px;
+}
+
+#hamburger {
+  color: black;
+}
