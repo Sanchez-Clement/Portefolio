@@ -45,6 +45,7 @@ font-size: 70px;
   position: absolute;
   top:0;
   width: 100%;
+  z-index: 20;
 
 
  }
@@ -58,6 +59,41 @@ font-size: 70px;
 #hamburger {
   color: black;
 }
+main {
+  background-color: #4B515D;
+}
+
+figure {
+  height: 360px;
+}
+
+figure .white-text {
+font-family: 'Montserrat Subrayada', sans-serif;
+font-size: 40px;
+margin-top: 20px;
+}
+
+
+#tatouage{
+  background-image: url(../img/tatoo.png);
+  background-size: cover;
+  background-position: center;
+
+}
+
+#agence {
+  background-image: url(../img/agenceweb.png);
+  background-size: cover;
+  background-position: center;
+
+}
+
+#moove {
+  background-image: url(../img/move.png);
+  background-size: cover;
+  background-position: center;
+
+}
 
 
 @media (min-width:992px) {
@@ -66,5 +102,7 @@ font-size: 70px;
     position: sticky;
     top: 0;
   }
-
+.accueil {
+background-attachment: fixed;
+}
 }
