@@ -34,7 +34,7 @@
     <h2 class="z-depth-2">web developper</h2>
 
 
-    <i class="fa fa-angle-down z-depth-3 hoverable" aria-hidden="true" id="chevron"></i>
+    <a class="js-scrollTo" href="#experience" > <i class="fa fa-angle-down z-depth-3 hoverable" aria-hidden="true" id="chevron"></i></a>
 
 
   </section>
@@ -54,16 +54,16 @@
       <div class="collapse navbar-collapse" id="navbarNav1">
           <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                  <a class="nav-link">Accueil<span class="sr-only">(current)</span></a>
+                  <a class="nav-link js-scrollTo" href="#">Accueil<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link">Réalisation</a>
+                  <a class="nav-link js-scrollTo" href="#experience">Réalisation</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link">présentation</a>
+                  <a class="nav-link js-scrollTo" href="#photo">présentation</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link">Contact</a>
+                  <a class="nav-link js-scrollTo" href="#mail">Contact</a>
               </li>
           </ul>
           <ul class="d-flex">
@@ -76,7 +76,7 @@
 </nav>
 <main>
 
-  <section class="realisation container-fluid">
+  <section class="realisation container-fluid" name="experience" id="experience">
 
     <div class="container">
       <div class="row">
@@ -106,8 +106,8 @@
 
 </figure>
 <figure class="card view overlay hm-bluegrey-strong col-12 col-md-6 col-lg-4 " id="moove">
-  <div class="mask flex-center flex-column">
-      <p class="white-text mb-2">Coach sportif</p>
+  <div class="mask flex-center flex-column ">
+      <p class="white-text text-center mb-2">Coach sportif</p>
       <button type="button" name="button" class="btn btn-primary">En savoir +</button>
   </div>
 
@@ -130,7 +130,7 @@
 </figure>
 <figure class="card view overlay hm-bluegrey-strong col-12 col-md-6 col-lg-4 " id="moove">
   <div class="mask flex-center flex-column">
-      <p class="white-text mb-2">coach sportif </p>
+      <p class="white-text text-center mb-2">coach sportif </p>
       <button type="button" name="button" class="btn btn-primary">En savoir +</button>
   </div>
 
@@ -184,7 +184,132 @@
 </div>
   </section>
 <!-- **********************************************************presentation******************************************* -->
-<section class="presentation">
+<section class="presentation d-flex flex-column align-items-center" >
+  <img id="photo" class="img-thumbnail rounded-circle" src="img/clement.jpg" alt="">
+
+  <div class="container">
+    <div class="row justify-content-around">
+
+
+
+
+  <p class="col-12"><i class="fa fa-quote-left fa-5x"></i><br> Passionné de développement et d'informatique, je saurai mettre mes compétences à votre service pour répondre à vos besoins. Formé à Simplon Roubaix, j'y ai développé mes capacités d'adaptation et ma polyvalence <br> <i class="fa fa-quote-right fa-5x"></i></p>
+  <figure class="col-12 col-md-3 card ">
+    <h4 class="card-title">responsive design</h4>
+
+
+    <img class="card-img-top" src="img/responsive.png" alt="">
+
+  </figure>
+  <figure class="col-12 col-md-3 card">
+    <h4 class="card-title">Mobile-first</h4>
+
+    <img class="card-img-top" src="img/mobile-first.png" alt="">
+
+  </figure>
+
+
+</div>
+
+</div>
+</section>
+<section class="contact container " id="mail">
+  <div class=" row d-flex  justify-content-around">
+
+
+    <form class="card col-12 col-lg-6 mt-1 stylish-color" action="index.html" method="post">
+      <div class="card-block">
+
+
+
+
+    <!--Header-->
+    <div class="text-center">
+        <h3><i class="fa fa-user-plus" aria-hidden="true"></i></i> Contactez moi !</h3>
+        <hr class="mt-2 mb-2">
+    </div>
+
+    <!--Body-->
+    <fieldset class="md-form">
+      <i class="fa fa-envelope prefix"></i>
+      <input type="text" id="form2" class="form-control">
+      <label for="form2">e-mail</label>
+  </fieldset>
+
+  <fieldset class="md-form">
+           <i class="fa fa-user prefix"></i>
+           <input type="text" id="name" class="form-control">
+           <label for="name">Entreprise</label>
+       </fieldset>
+
+  <fieldset class="md-form">
+      <i class="fa fa-male prefix"></i>
+      <input type="text" id="forname" class="form-control">
+      <label for="forname">Nom</label>
+  </fieldset>
+  <fieldset class="md-form">
+      <i class="fa fa-mobile prefix"></i>
+      <input type="text" id="phonenumber" class="form-control">
+      <label for="phonenumber">Numero</label>
+  </fieldset>
+
+  <fieldset class="md-form">
+<i class="fa fa-tag prefix"></i>
+<input type="text" id="subject" class="form-control">
+<label for="subject">Sujet</label>
+</fieldset>
+
+  <fieldset class="md-form">
+<i class="fa fa-pencil prefix"></i>
+<textarea  id="form8" class="md-textarea"></textarea>
+<label for="form8">Texte</label>
+</fieldset>
+
+
+  <fieldset class="text-center">
+
+      <button class="btn btn-yellow">Envoyer</button>
+  </fieldset>
+
+</div>
+
+<!--Footer-->
+<div class="text-center">
+
+    <fieldset class="form-group">
+        <input type="checkbox" id="checkbox1">
+        <label for="checkbox1">S'inscire à la newsletter</label>
+    </fieldset>
+</div>
+
+
+
+</form>
+<article class="col-12 col-lg-4 card mt-1">
+
+  <div class="card-block">
+
+
+
+
+<!--Header-->
+<div class="text-center">
+    <h3><i class="fa fa-group" aria-hidden="true"></i> Coordonnées</h3>
+    <hr class="mt-2 mb-2">
+</div>
+
+<p class="text-center"><i class="fa fa-mobile mr-1" aria-hidden="true"></i>06 26 90 29 26</p>
+<p class="text-center"><i class="fa fa-at mr-1" aria-hidden="true"></i></i>sanchez.clmnt@gmail.com</p>
+<p class="text-center"><i class="fa fa-crosshairs mr-1" aria-hidden="true"></i>Lille</p>
+</div>
+
+
+</article>
+
+</div>
+<!--Naked Form-->
+</div>
+
 
 </section>
 
@@ -192,6 +317,19 @@
 
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
+<script>
+	$(document).ready(function() {
+		$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+			var page = $(this).attr('href'); // Page cible
+			var speed = 750; // Durée de l'animation (en ms)
+			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+			return false;
+		});
+	});
+</script>
 
 
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
