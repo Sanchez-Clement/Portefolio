@@ -1,3 +1,12 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+  font-family: "lovelo";
+  src: url(../fonts/lovelo.ttf);
+}
+
 .accueil  {
   width: 100%;
   height : 100vh;
@@ -7,11 +16,16 @@
 }
 
 #chevron {
-  color: white;
+  color:black;
   font-size: 70px;
-  position: absolute;
-  bottom: 20px;
+position: relative;
+top : 10%;
+background-color: white;
+width: 70px;
+height: 70px;
+border-radius: 50%;
 }
+
 
 .accueil h1 {
 font-family: 'Montserrat Subrayada', sans-serif;
@@ -33,7 +47,7 @@ font-size: 70px;
   margin: auto;
   color: white;
   margin-top: 30px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "lovelo";
   padding: 30px;
   font-size: 40px;
   background-color: rgba(0,0,0,0.5);
@@ -48,23 +62,46 @@ font-size: 70px;
   z-index: 20;
 
 
+
  }
 
+ #navigation a {
+   font-family: "lovelo";
+   color: white;
+
+
+ }
+
+ #navigation .navbar-nav a:hover {
+   border-bottom: 5px solid white;
+ }
+
+
+
+
 .navbar a i {
-  color:black;
-  font-size:40px;
+  color:white;
+  font-size:30px;
   margin-left: 20px;
 }
 
 #hamburger {
-  color: black;
+  color: white;
 }
-main {
-  background-color: #4B515D;
+.realisation {
+  background-color: black;
+
 }
 
 figure {
   height: 360px;
+}
+.realisation {
+  padding-bottom: 150px;
+}
+
+.realisation figure {
+  margin-top: 30px;
 }
 
 figure .white-text {
@@ -94,6 +131,58 @@ margin-top: 20px;
   background-position: center;
 
 }
+
+/***************************modal******************************/
+#myModal {
+  text-align: center;
+
+}
+
+#myModal h5 {
+  color: white;
+  font-family: "lovelo";
+  text-align: center;
+  width: 100%;
+
+}
+
+#myModal img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+#myModal h6 {
+  color: white;
+  font-size: 20px;
+  font-family: "lovelo";
+  margin-bottom : 30px;
+  margin-top: 30px;
+  text-decoration: underline;
+}
+
+#myModal li {
+  font-size: 20px;
+}
+
+
+
+
+
+.right {
+
+  height: 500px;
+  overflow: hidden;
+}
+
+.visible {
+   width: 110%;
+    height: 100%;
+     overflow-y: scroll;
+     padding-right: 10%;
+
+}
+
+
 
 
 @media (min-width:992px) {
