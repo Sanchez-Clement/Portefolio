@@ -25,6 +25,8 @@
 
 <body>
 
+  <!-- *******************************************************************Debut du header*********************************************************** -->
+
     <header>
 
 
@@ -44,6 +46,11 @@
 
 
     </header>
+
+
+    <!-- ******************************************************fin du header***************************************************************************** -->
+    <!-- ***********************************************************debut nav******************************************************************************** -->
+
 
     <nav class="navbar navbar-toggleable-md black " id="navigation">
         <div class="container">
@@ -76,25 +83,81 @@
             </div>
         </div>
     </nav>
+<!-- *************************************************************fin nav************************************************************************ -->
+<!-- ****************************************************************début main******************************************************************************** -->
+
+
     <main>
 
-        <section class="realisation container-fluid" name="experience" id="experience">
+<!-- ******************************************************section mes realisations*********************************************** -->
+
+        <section class="realisation container-fluid" id="experience">
 
             <div class="container">
                 <div class="row">
 
 
 
-                    <!-- <h2 class="col-12 mt-3 mb-3">réalisation</h2> -->
+                <!-- **************************************site tatougae************************************************************* -->
 
                     <figure class="card view overlay hm-bluegrey-strong col-12 col-md-6 col-lg-4 " id="tatouage">
                         <div class="mask flex-center flex-column">
                             <p class="white-text mb-2">tatoo-shop </p>
-                            <button type="button" name="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">En savoir +</button>
+                            <button type="button" name="button" class="btn btn-primary" data-toggle="modal" data-target="#myModalTatoo">En savoir +</button>
                         </div>
 
 
                     </figure>
+
+
+                    <!-- *******************************************modal tatouage******************************************** -->
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModalTatoo" tabindex="-1" role="dialog" aria-labelledby="labeltatoo" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content stylish-color">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="labeltatoo">Tattoo-shop</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                                </div>
+                                <div class="modal-body row">
+                                    <section class="left col-md-4 d-flex flex-column justify-content-around">
+                                        <h6>Technoligies utilisés</h6>
+                                        <ul>
+                                            <li><i class="fa fa-html5 mr-1" aria-hidden="true"></i>HTML 5</li>
+                                            <li><i class="fa fa-css3 mr-1" aria-hidden="true"></i>CSS 3</li>
+                                        </ul>
+                                        <h6>Besoins du client :</h6>
+                                        <ul class="besoin">
+                                            <li>Site responsive</li>
+                                            <li>Site vitrine</li>
+                                        </ul>
+                                        <a href="https://github.com/Sanchez-Clement/tatoo-shop" class="btn btn-elegant"><i class="fa fa-github mr-1" aria-hidden="true"></i>Code source</a>
+                                        <a href="https://sanchez-clement.github.io/tatoo-shop/" class="btn btn-elegant">Lien du site</a>
+
+                                    </section>
+                                    <section class="right hidden-sm-down col-md-8">
+                                        <div class="visible">
+
+                                            <img src="img/tatoo.png" alt="">
+                                            <img src="img/tatoo2.png" alt="">
+                                            <img src="img/tatoo3.png" alt="">
+                                            <img src="img/tatoo4.png" alt="">
+
+                                        </div>
+
+                                    </section>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+<!-- **************************************site agence web************************************************************* -->
 
 
 
@@ -102,90 +165,162 @@
                     <figure class="card view overlay hm-bluegrey-strong col-12 col-md-6 col-lg-4 " id="agence">
                         <div class="mask flex-center flex-column">
                             <p class="white-text mb-2">agence web </p>
-                            <button type="button" name="button" class="btn btn-primary">En savoir +</button>
+                            <button type="button" name="button" class="btn btn-primary" data-toggle="modal" data-target="#myModalAgenceweb">En savoir +</button>
                         </div>
 
 
                     </figure>
+
+
+
+
+                                <!-- *******************************************modal agenceweb*********************************************************** -->
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="myModalAgenceweb" tabindex="-1" role="dialog" aria-labelledby="labelagenceweb" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg" role="document">
+                                        <div class="modal-content stylish-color">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="labelagenceweb">Nor & Clement</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                                            </div>
+                                            <div class="modal-body row">
+                                                <section class="left col-md-4 d-flex flex-column justify-content-around">
+                                                    <h6>Technoligies utilisés</h6>
+                                                    <ul>
+                                                        <li><i class="fa fa-html5 mr-1" aria-hidden="true"></i>HTML 5</li>
+                                                        <li><i class="fa fa-css3 mr-1" aria-hidden="true"></i>CSS 3</li>
+                                                    </ul>
+                                                    <h6>Besoins du client :</h6>
+                                                    <ul class="besoin">
+                                                        <li>Site responsive</li>
+                                                        <li>Site vitrine</li>
+                                                    </ul>
+                                                    <a href="https://github.com/Sanchez-Clement/agenceweb" class="btn btn-elegant"><i class="fa fa-github mr-1" aria-hidden="true"></i>Code source</a>
+                                                    <a href="https://sanchez-clement.github.io/agenceweb/" class="btn btn-elegant">Lien du site</a>
+
+                                                </section>
+                                                <section class="right hidden-sm-down col-md-8">
+                                                    <div class="visible">
+
+                                                        <img src="img/agenceweb1.png" alt="">
+                                                        <img src="img/agenceweb.png" alt="">
+                                                        <img src="img/agenceweb2.png" alt="">
+                                                        <img src="img/agenceweb3.png" alt="">
+                                                        <img src="img/agenceweb4.png" alt="">
+
+                                                    </div>
+
+                                                </section>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+<!-- **************************************site moove your body************************************************************* -->
+
                     <figure class="card view overlay hm-bluegrey-strong col-12 col-md-6 col-lg-4 " id="moove">
                         <div class="mask flex-center flex-column ">
                             <p class="white-text text-center mb-2">Coach sportif</p>
-                            <button type="button" name="button" class="btn btn-primary">En savoir +</button>
+                            <button type="button" name="button" class="btn btn-primary" data-toggle="modal" data-target="#myModalmoove">En savoir +</button>
                         </div>
 
 
                     </figure>
 
-                    <figure class="card view overlay hm-bluegrey-strong col-12 col-md-6 col-lg-4 " id="tatouage">
-                        <div class="mask flex-center flex-column">
-                            <p class="white-text mb-2">tatoo-shop </p>
-                            <button type="button" name="button" class="btn btn-primary">En savoir +</button>
-                        </div>
-
-                    </figure>
-                    <figure class="card view overlay hm-bluegrey-strong col-12 col-md-6 col-lg-4 " id="agence">
-                        <div class="mask flex-center flex-column">
-                            <p class="white-text mb-2">agence web </p>
-                            <button type="button" name="button" class="btn btn-primary">En savoir +</button>
-                        </div>
-
-                    </figure>
-                    <figure class="card view overlay hm-bluegrey-strong col-12 col-md-6 col-lg-4 " id="moove">
-                        <div class="mask flex-center flex-column">
-                            <p class="white-text text-center mb-2">coach sportif </p>
-                            <button type="button" name="button" class="btn btn-primary">En savoir +</button>
-                        </div>
 
 
-                    </figure>
-                </div>
-            </div>
+                                <!-- *******************************************modal moove*********************************************************** -->
 
-            <!-- *******************************************modal tatouage*********************************************************** -->
+                                <!-- Modal -->
+                                <div class="modal fade" id="myModalmoove" tabindex="-1" role="dialog" aria-labelledby="labelmoove" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg" role="document">
+                                        <div class="modal-content stylish-color">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="labelmoove">Moove your body</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                                            </div>
+                                            <div class="modal-body row">
+                                                <section class="left col-md-4 d-flex flex-column justify-content-around">
+                                                    <h6>Technoligies utilisés</h6>
+                                                    <ul>
+                                                        <li><i class="fa fa-html5 mr-1" aria-hidden="true"></i>HTML 5</li>
+                                                        <li><i class="fa fa-css3 mr-1" aria-hidden="true"></i>CSS 3</li>
+                                                        <li><i class="fa fa-archive mr-1" aria-hidden="true"></i>Bootstrap</li>
+                                                    </ul>
+                                                    <h6>Besoins du client :</h6>
+                                                    <ul class="besoin">
+                                                        <li>Site responsive</li>
+                                                        <li>Site vitrine</li>
+                                                    </ul>
+                                                    <a href="https://github.com/Sanchez-Clement/coach" class="btn btn-elegant"><i class="fa fa-github mr-1" aria-hidden="true"></i>Code source</a>
+                                                    <a href="https://sanchez-clement.github.io/coach/" class="btn btn-elegant">Lien du site</a>
 
-            <!-- Modal -->
-            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content stylish-color">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Tattoo-shop</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-                        </div>
-                        <div class="modal-body row">
-                            <section class="left col-md-4 d-flex flex-column justify-content-around">
-                                <h6>Technoligies utilisés</h6>
-                                <ul>
-                                    <li><i class="fa fa-html5 mr-1" aria-hidden="true"></i>HTML 5</li>
-                                    <li><i class="fa fa-css3 mr-1" aria-hidden="true"></i>CSS 3</li>
-                                </ul>
-                                <h6>Besoins du client :</h6>
-                                <ul class="besoin">
-                                    <li>Site responsive</li>
-                                    <li>Site vitrine</li>
-                                </ul>
-                                <a href="#" class="btn btn-elegant"><i class="fa fa-github mr-1" aria-hidden="true"></i>Code source</a>
-                                <a href="#" class="btn btn-elegant">Lien du site</a>
+                                                </section>
+                                                <section class="right hidden-sm-down col-md-8">
+                                                    <div class="visible">
 
-                            </section>
-                            <section class="right hidden-sm-down col-md-8">
-                                <div class="visible">
+                                                        <img src="img/move.png" alt="">
+                                                        <img src="img/moove1.png" alt="">
+                                                        <img src="img/moove2.png" alt="">
+                                                        <img src="img/moove3.png" alt="">
 
-                                    <img src="img/tatoo.png" alt="">
-                                    <img src="img/tatoo2.png" alt="">
-                                    <img src="img/tatoo3.png" alt="">
-                                    <img src="img/tatoo4.png" alt="">
 
+                                                    </div>
+
+                                                </section>
+                                            </div>
+
+                                        </div>
+                                    </div>
                                 </div>
 
-                            </section>
+
+            <!-- **************************************site piscine************************************************************* -->
+
+                    <figure class="card view overlay hm-bluegrey-strong col-12 col-md-6 col-lg-4 " id="piscine">
+                        <div class="mask flex-center flex-column">
+                            <p class="white-text mb-2">splash </p>
+                            <button type="button" name="button" class="btn btn-primary">En savoir +</button>
                         </div>
 
-                    </div>
+                    </figure>
+
+
+
+            <!-- **************************************site vente-info************************************************************* -->
+                    <figure class="card view overlay hm-bluegrey-strong col-12 col-md-6 col-lg-4 " id="vente-info">
+                        <div class="mask flex-center flex-column">
+                            <p class="white-text mb-2">Clem tech </p>
+                            <button type="button" name="button" class="btn btn-primary">En savoir +</button>
+                        </div>
+
+                    </figure>
+
+          <!-- **************************************site plombier************************************************************* -->
+                    <figure class="card view overlay hm-bluegrey-strong col-12 col-md-6 col-lg-4 " id="plombier">
+                        <div class="mask flex-center flex-column">
+                            <p class="white-text text-center mb-2">chez huggy</p>
+                            <button type="button" name="button" class="btn btn-primary">En savoir +</button>
+                        </div>
+
+
+                    </figure>
                 </div>
             </div>
+
+
+
+
+
+
         </section>
+        <!-- **********************************************************fin realisations******************************************* -->
         <!-- **********************************************************presentation******************************************* -->
         <section class="presentation d-flex flex-column align-items-center">
             <img id="photo" class="img-thumbnail rounded-circle" src="img/clement.jpg" alt="">
@@ -217,11 +352,19 @@
 
             </div>
         </section>
+
+<!-- ********************************************************** fin presentation******************************************* -->
+<!-- **********************************************************me contacter****************************************** -->
+
+
+
         <section class="contact container-fluid " id="mail">
             <h2>contactez moi !</h2>
             <div class="container">
 
                 <div class=" row d-flex  justify-content-around">
+
+                  <!-- **************************debut formulaire************************************** -->
 
 
                     <form class="card col-12 col-lg-6 mt-1 " action="index.html" method="post">
@@ -232,7 +375,7 @@
 
                             <!--Header-->
                             <div class="text-center">
-                                <h3><i class="fa fa-user-plus" aria-hidden="true"></i></i> Contactez moi !</h3>
+                                <h3><i class="fa fa-user-plus" aria-hidden="true"></i> Contactez moi !</h3>
                                 <hr class="mt-2 mb-2">
                             </div>
 
@@ -292,7 +435,14 @@
 
 
                     </form>
+
+
+                    <!-- **************************fin formulaire************************************** -->
+
                     <div class="col-12 col-lg-4 suivez">
+
+
+                        <!-- **************************debut coordonées ************************************** -->
 
                     <article class="card mt-2">
 
@@ -308,7 +458,7 @@
                             </div>
 
                             <p class="text-center"><i class="fa fa-mobile mr-1" aria-hidden="true"></i>06 26 90 29 26</p>
-                            <p class="text-center"><i class="fa fa-at mr-1" aria-hidden="true"></i></i>sanchez.clmnt@gmail.com</p>
+                            <p class="text-center"><i class="fa fa-at mr-1" aria-hidden="true"></i>sanchez.clmnt@gmail.com</p>
                             <p class="text-center"><i class="fa fa-crosshairs mr-1" aria-hidden="true"></i>Lille</p>
                         </div>
 
@@ -317,6 +467,9 @@
 
 
                       </article>
+
+                        <!-- **************************fin coordonées ************************************** -->
+                          <!-- **************************debut suivez moi ************************************** -->
                         <article class="card mt-2">
 
                         <div class="card-block mt-1">
@@ -338,8 +491,7 @@
 
 
   </article>
-                <!-- </div> -->
-                <!--Naked Form-->
+
               </div>
             </div>
 
@@ -349,27 +501,23 @@
 
     </main>
 
-    <!--Footer-->
+    <!-- **************************************fin main**************************************************** -->
+    <!-- **************************************footer**************************************************** -->
+
+
+
 <footer class="page-footer elegant-color center-on-small-only" id="foot">
 
-    <!--Footer Links-->
+
     <div class="container-fluid">
-        <!-- <div class="row justify-content-around">
 
-            <button type="button" name="button" data-toggle="modal" data-target="#myModal3" class="btn grey darken-2">Carolina : votre coach</button>
-            <button type="button" name="button" data-toggle="modal" data-target="#myModal1" class="btn grey darken-2"><i class="fa fa-tripadvisor" aria-hidden="true"></i>
-          Vos avis</button>
-            <button type="button" name="button" data-toggle="modal" data-target="#myModal2" class="btn grey darken-2">Vérifiez les disponibilités</button>
-
-        </div> -->
-        <!--Copyright-->
         <div class="footer-copyright container-fluid">
 
             <p> © 2017 Copyright: <a href="https://github.com/Sanchez-Clement"> Clement Sanchez </a></p>
 
         </div>
     </div>
-    <!--/.Copyright-->
+    
 </footer>
 
 

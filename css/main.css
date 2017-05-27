@@ -112,35 +112,51 @@ font-size: 40px;
 margin-top: 20px;
 }
 
+#tatouage, #agence, #moove, #plombier, #vente-info, #piscine {
+  background-size: cover;
+  background-position: center;
+
+}
+
 
 #tatouage{
   background-image: url(../img/tatoo.png);
-  background-size: cover;
-  background-position: center;
+
 
 }
 
 #agence {
   background-image: url(../img/agenceweb.png);
-  background-size: cover;
-  background-position: center;
+
 
 }
 
 #moove {
   background-image: url(../img/move.png);
-  background-size: cover;
-  background-position: center;
+
+}
+
+#piscine {
+  background-image: url(../img/piscine.png);
+
+}
+
+#plombier {
+  background-image: url(../img/plombier.png);
+
+}
+#vente-info {
+  background-image: url(../img/vente-info.png);
 
 }
 
 /***************************modal******************************/
-#myModal {
+#myModalTatoo, #myModalAgenceweb, #myModalmoove {
   text-align: center;
 
 }
 
-#myModal h5 {
+#myModalTatoo h5, #myModalAgenceweb h5, #myModalmoove h5 {
   color: white;
   font-family: "lovelo";
   text-align: center;
@@ -148,12 +164,12 @@ margin-top: 20px;
 
 }
 
-#myModal img {
+#myModalTatoo img, #myModalAgenceweb img, #myModalmoove img {
   width: 100%;
   margin-top: 10px;
 }
 
-#myModal h6 {
+#myModalTatoo h6, #myModalAgenceweb h6, #myModalmoove h6 {
   color: white;
   font-size: 20px;
   font-family: "lovelo";
@@ -162,7 +178,7 @@ margin-top: 20px;
   text-decoration: underline;
 }
 
-#myModal li {
+#myModalTatoo li, #myModalAgenceweb li, #myModalmoove li {
   font-size: 20px;
 }
 
