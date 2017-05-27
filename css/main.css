@@ -217,8 +217,15 @@ margin-top: 20px;
   font-size: 20px;
 }
 
-.presentation figure img {
+/*.presentation figure img {
   height: 80%;
+}*/
+
+#mobilefirst {
+  display: flex;
+  flex-flow: column nowrap;
+
+  justify-content: space-around;
 }
 
 .presentation figure {
