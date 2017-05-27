@@ -88,6 +88,8 @@ font-size: 70px;
 #hamburger {
   color: white;
 }
+
+/********************************************realisation**********************************************************/
 .realisation {
   background-color: black;
 
@@ -165,6 +167,8 @@ margin-top: 20px;
 }
 
 
+/*****************************************************presentation*************************************/
+
 
 
 
@@ -198,7 +202,6 @@ margin-top: 20px;
 }
 
 .presentation figure img {
-  /*width: 10%;*/
   height: 80%;
 }
 
@@ -212,8 +215,6 @@ margin-top: 20px;
 
 #photo {
   width: 150px;
-
-
   position: relative;
   bottom : 60px;
 }
@@ -225,7 +226,43 @@ margin-top: 20px;
 
 }
 
+/************************************************contactez-moi!************************************************/
 
+#mail {
+  padding: 0 0 30px 0;
+  background-image: url(../img/826.jpg);
+  background-size: 40%;
+  background-attachment: fixed;
+}
+
+
+#mail h2 {
+  font-family: "lovelo";
+  width : 100%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+
+
+
+}
+
+#mail p {
+  font-size: 20px;
+
+}
+#mail i {
+  font-size: 25px;
+}
+
+#mail p a {
+  color: black;
+}
+
+#foot {
+  margin-top: 0;
+}
 
 
 @media (min-width:992px) {
@@ -237,4 +274,24 @@ margin-top: 20px;
 .accueil {
 background-attachment: fixed;
 }
+
+#mail h2 {
+  font-size: 40px;
+  padding: 30px;
+  position: sticky;
+  top: 50px;
+  z-index: 20;
+}
+
+#mail i {
+  font-size: 30px;
+}
+
+.suivez {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+}
+
+
 }
