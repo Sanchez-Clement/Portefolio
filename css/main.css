@@ -112,12 +112,15 @@ font-size: 40px;
 margin-top: 20px;
 }
 
-#tatouage, #agence, #moove, #plombier, #vente-info, #piscine {
+#tatouage, #agence, #moove, #ecommerce, #pfs , #starwars{
   background-size: cover;
   background-position: center;
 
 }
 
+#pfs p {
+  text-align: center;
+}
 
 #tatouage{
   background-image: url(../img/tatoo.png);
@@ -136,27 +139,27 @@ margin-top: 20px;
 
 }
 
-#piscine {
-  background-image: url(../img/piscine.png);
+#pfs {
+  background-image: url(../img/pfc1.png);
 
 }
 
-#plombier {
-  background-image: url(../img/plombier.png);
+#starwars {
+  background-image: url(../img/starwars2.png);
 
 }
-#vente-info {
-  background-image: url(../img/vente-info.png);
+#ecommerce {
+  background-image: url(../img/ecommerce.png);
 
 }
 
 /***************************modal******************************/
-#myModalTatoo, #myModalAgenceweb, #myModalmoove {
+#myModalTatoo, #myModalAgenceweb, #myModalmoove, #myModalpfs, #myModaleEcommerce , #myModalstarwars {
   text-align: center;
 
 }
 
-#myModalTatoo h5, #myModalAgenceweb h5, #myModalmoove h5 {
+#myModalTatoo h5, #myModalAgenceweb h5, #myModalmoove h5, #myModalpfs h5, #myModaleEcommerce h5, #myModalstarwars h5 {
   color: white;
   font-family: "lovelo";
   text-align: center;
@@ -164,12 +167,12 @@ margin-top: 20px;
 
 }
 
-#myModalTatoo img, #myModalAgenceweb img, #myModalmoove img {
+#myModalTatoo img, #myModalAgenceweb img, #myModalmoove img, #myModalpfs img, #myModaleEcommerce img, #myModalstarwars img {
   width: 100%;
   margin-top: 10px;
 }
 
-#myModalTatoo h6, #myModalAgenceweb h6, #myModalmoove h6 {
+#myModalTatoo h6, #myModalAgenceweb h6, #myModalmoove h6, #myModalpfs h6, #myModaleEcommerce h6, #myModalstarwars h6 {
   color: white;
   font-size: 20px;
   font-family: "lovelo";
@@ -178,7 +181,7 @@ margin-top: 20px;
   text-decoration: underline;
 }
 
-#myModalTatoo li, #myModalAgenceweb li, #myModalmoove li {
+#myModalTatoo li, #myModalAgenceweb li, #myModalmoove li, #myModalpfs li , #myModaleEcommerce li, #myModalstarwars li{
   font-size: 20px;
 }
 

@@ -12,7 +12,7 @@
     <!-- Place favicon.ico in the root directory -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
+<link rel="stylesheet" href="fonts/font-mfizz-2.4.1/font-mfizz.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
@@ -124,7 +124,7 @@
                                 </div>
                                 <div class="modal-body row">
                                     <section class="left col-md-4 d-flex flex-column justify-content-around">
-                                        <h6>Technoligies utilisés</h6>
+                                        <h6>Technoligies utilisées</h6>
                                         <ul>
                                             <li><i class="fa fa-html5 mr-1" aria-hidden="true"></i>HTML 5</li>
                                             <li><i class="fa fa-css3 mr-1" aria-hidden="true"></i>CSS 3</li>
@@ -188,7 +188,7 @@
                                 </div>
                                 <div class="modal-body row">
                                     <section class="left col-md-4 d-flex flex-column justify-content-around">
-                                        <h6>Technoligies utilisés</h6>
+                                        <h6>Technoligies utilisées</h6>
                                         <ul>
                                             <li><i class="fa fa-html5 mr-1" aria-hidden="true"></i>HTML 5</li>
                                             <li><i class="fa fa-css3 mr-1" aria-hidden="true"></i>CSS 3</li>
@@ -247,11 +247,11 @@
                                 </div>
                                 <div class="modal-body row">
                                     <section class="left col-md-4 d-flex flex-column justify-content-around">
-                                        <h6>Technoligies utilisés</h6>
+                                        <h6>Technoligies utilisées</h6>
                                         <ul>
                                             <li><i class="fa fa-html5 mr-1" aria-hidden="true"></i>HTML 5</li>
                                             <li><i class="fa fa-css3 mr-1" aria-hidden="true"></i>CSS 3</li>
-                                            <li><i class="fa fa-archive mr-1" aria-hidden="true"></i>Bootstrap</li>
+                                            <li><i class="icon-bootstrap"></i>Bootstrap</li>
                                         </ul>
                                         <h6>Besoins du client :</h6>
                                         <ul class="besoin">
@@ -281,36 +281,198 @@
                     </div>
 
 
-                    <!-- **************************************site piscine************************************************************* -->
+                    <!-- **************************************site pierre, feuille , ciseaux************************************************************* -->
 
-                    <figure class="card view overlay hm-bluegrey-strong col-12 col-md-6 col-lg-4 " id="piscine">
+                    <figure class="card view overlay hm-bluegrey-strong col-12 col-md-6 col-lg-4 " id="pfs">
                         <div class="mask flex-center flex-column">
-                            <p class="white-text mb-2">splash </p>
-                            <button type="button" name="button" class="btn btn-primary">En savoir +</button>
+                            <p class="white-text mb-2">Pierre, feuille, ciseaux</p>
+                            <button type="button" name="button" class="btn btn-primary" data-toggle="modal" data-target="#myModalpfs">En savoir +</button>
+                        </div>
+
+                    </figure>
+
+                    <!-- *******************************************modal pierre, feuille, ciseaux*********************************************************** -->
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModalpfs" tabindex="-1" role="dialog" aria-labelledby="labelpfs" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content stylish-color">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="labelpfs">Pierre, feuille ,ciseaux</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                                </div>
+                                <div class="modal-body row">
+                                    <section class="left col-md-4 d-flex flex-column justify-content-around">
+                                        <h6>Technoligies utilisées</h6>
+                                        <ul>
+
+                                            <li><i class="icon-javascript-alt"></i>Javascript</li>
+                                            <li><i class="fa fa-html5 mr-1" aria-hidden="true"></i>HTML 5</li>
+                                            <li><i class="fa fa-css3 mr-1" aria-hidden="true"></i>CSS 3</li>
+                                            <li><i class="icon-bootstrap"></i></i>Bootstrap</li>
+
+                                        </ul>
+                                        <h6>Besoins du client :</h6>
+                                        <ul class="besoin">
+                                            <li>Jeu responsive</li>
+                                            <li>Animations dynamiques</li>
+                                        </ul>
+                                        <a href="https://github.com/Sanchez-Clement/jeu-pierre-feuille-ciseaux" class="btn btn-elegant"><i class="fa fa-github mr-1" aria-hidden="true"></i>Code source</a>
+                                        <a href="https://sanchez-clement.github.io/jeu-pierre-feuille-ciseaux" class="btn btn-elegant">Lien du site</a>
+
+                                    </section>
+                                    <section class="right hidden-sm-down col-md-8">
+                                        <div class="visible">
+
+                                            <img src="img/pfc1.png" alt="page du site web">
+                                            <img src="img/pfs2.png" alt="page du site web">
+                                            <img src="img/pfs3.png" alt="page du site web">
+
+
+
+                                        </div>
+
+                                    </section>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- **************************************site ecommerce************************************************************* -->
+                    <figure class="card view overlay hm-bluegrey-strong col-12 col-md-6 col-lg-4 " id="ecommerce">
+                        <div class="mask flex-center flex-column">
+                            <p class="white-text mb-2">E-commerce</p>
+                            <button type="button" name="button" class="btn btn-primary" data-toggle="modal" data-target="#myModaleEcommerce">En savoir +</button>
                         </div>
 
                     </figure>
 
 
+                    <!-- *******************************************modal ecommerce*********************************************************** -->
 
-                    <!-- **************************************site vente-info************************************************************* -->
-                    <figure class="card view overlay hm-bluegrey-strong col-12 col-md-6 col-lg-4 " id="vente-info">
-                        <div class="mask flex-center flex-column">
-                            <p class="white-text mb-2">Clem tech </p>
-                            <button type="button" name="button" class="btn btn-primary">En savoir +</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModaleEcommerce" tabindex="-1" role="dialog" aria-labelledby="labelEcommerce" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content stylish-color">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="labelEcommerce">E-commerce</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                                </div>
+                                <div class="modal-body row">
+                                    <section class="left col-md-4 d-flex flex-column justify-content-around">
+                                        <h6>Technoligies utilisées</h6>
+                                        <ul>
+
+                                            <li><i class="icon-php-alt"></i>PHP 7</li>
+                                            <li><i class="icon-mysql-alt"></i></i>Mysql</li>
+                                            <li><i class="fa fa-html5 mr-1" aria-hidden="true"></i>HTML 5</li>
+                                            <li><i class="fa fa-css3 mr-1" aria-hidden="true"></i>CSS 3</li>
+                                            <li><i class="icon-html"></i>Materialize</li>
+
+
+
+
+                                        </ul>
+                                        <h6>Besoins du client :</h6>
+                                        <ul class="besoin">
+                                            <li>Produits an base de données</li>
+                                            <li>Interface administrateur</li>
+                                            <li>Organisation MVC</li>
+                                        </ul>
+                                        <a href="https://github.com/Sanchez-Clement/ecommerce-mvc" class="btn btn-elegant"><i class="fa fa-github mr-1" aria-hidden="true"></i>Code source</a>
+                                        <!-- <a href="https://sanchez-clement.github.io/jeu-pierre-feuille-ciseaux" class="btn btn-elegant">Lien du site</a> -->
+
+                                    </section>
+                                    <section class="right hidden-sm-down col-md-8">
+                                        <div class="visible">
+
+                                            <img src="img/ecommerce.png" alt="page du site web">
+                                            <img src="img/ecommerce2.png" alt="page du site web">
+                                            <img src="img/ecommerce3.png" alt="page du site web">
+                                            <img src="img/ecommerce4.png" alt="page du site web">
+
+
+                                        </div>
+
+                                    </section>
+                                </div>
+
+                            </div>
                         </div>
+                    </div>
 
-                    </figure>
+
 
                     <!-- **************************************site plombier************************************************************* -->
-                    <figure class="card view overlay hm-bluegrey-strong col-12 col-md-6 col-lg-4 " id="plombier">
+                    <figure class="card view overlay hm-bluegrey-strong col-12 col-md-6 col-lg-4 " id="starwars">
                         <div class="mask flex-center flex-column">
-                            <p class="white-text text-center mb-2">chez huggy</p>
-                            <button type="button" name="button" class="btn btn-primary">En savoir +</button>
+                            <p class="white-text text-center mb-2">Star Wars</p>
+                            <button type="button" name="button" class="btn btn-primary" data-toggle="modal" data-target="#myModalstarwars">En savoir +</button>
                         </div>
 
 
                     </figure>
+                </div>
+            </div>
+            <!-- *******************************************modal ecommerce*********************************************************** -->
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModalstarwars" tabindex="-1" role="dialog" aria-labelledby="labelstarwars" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content stylish-color">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="labelstarwars">Star-Wars</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                        </div>
+                        <div class="modal-body row">
+                            <section class="left col-md-4 d-flex flex-column justify-content-around">
+                                <h6>Technoligies utilisées</h6>
+                                <ul>
+
+                                    <li><i class="icon-angular"></i>Angular 4</li>
+                                    <li><i class="fa fa-html5 mr-1" aria-hidden="true"></i>HTML 5</li>
+                                    <li><i class="fa fa-css3 mr-1" aria-hidden="true"></i>CSS 3</li>
+
+
+
+
+
+                                </ul>
+                                <h6>Besoins du client :</h6>
+                                <ul class="besoin">
+                                    <li>Application Angular</li>
+                                    <li>Utilisation d'une API</li>
+                                    <li>URL Propres</li>
+                                </ul>
+                                <a href="https://github.com/Sanchez-Clement/ecommerce-mvc" class="btn btn-elegant"><i class="fa fa-github mr-1" aria-hidden="true"></i>Code source</a>
+                                <!-- <a href="https://sanchez-clement.github.io/jeu-pierre-feuille-ciseaux" class="btn btn-elegant">Lien du site</a> -->
+
+                            </section>
+                            <section class="right hidden-sm-down col-md-8">
+                                <div class="visible">
+
+                                    <img src="img/starwars.png" alt="page du site web">
+                                    <img src="img/starwars2.png" alt="page du site web">
+                                    <img src="img/starwars3.png" alt="page du site web">
+                                    <img src="img/starwars4.png" alt="page du site web">
+
+
+                                </div>
+
+                            </section>
+                        </div>
+
+                    </div>
                 </div>
             </div>
 
@@ -370,7 +532,7 @@
                     <!-- **************************debut formulaire************************************** -->
 
 
-                    <form class="card col-12 col-lg-6 mt-1 " action="index.html" method="post">
+                    <form class="card col-12 col-lg-6 mt-1 " action="mailto:sanchez-clement@live.fr" method="post" enctype="text/plain">
                         <div class="card-block">
 
 
@@ -421,7 +583,7 @@
 
                             <fieldset class="text-center">
 
-                                <button class="btn btn-yellow">Envoyer</button>
+                                <input type="submit" class="btn btn-yellow">
                             </fieldset>
 
                         </div>
